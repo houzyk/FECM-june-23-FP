@@ -10,7 +10,7 @@ double x = x * 2
 square:: Int -> Int
 square x = x * x
 
-addOneDoubleItThenSquareIt = square . double . addOne
+addOneDoubleItThenSquareIt = square . double . addOne -- composition operator 
 
 -- 2 
 -- 2 + 1 (3) addOne
